@@ -34,7 +34,8 @@ textarea,
 select {
     font: inherit;
 }
-ul[class] {
+ul[class],
+li[class] {
     list-style: none;
 }
 img {

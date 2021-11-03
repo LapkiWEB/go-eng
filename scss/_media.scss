@@ -12,15 +12,35 @@
     .header__inner {
         flex-wrap: wrap;
     }
-
-    // .student__img {
-    //     height: 500px;
-    // }
-
-    // .student__title {
-    //     padding-top: 70px;
-    // }
 }
+
+
+
+
+@media(max-width: 1024px) {
+    .menu__top {
+        display: block;
+        border-bottom: none;
+        padding-bottom: 0 !important;
+        
+    }
+    .menu__list{
+        margin-bottom: 20px;
+    }
+    .menu__down {
+        display: block;
+        padding-top: 0 !important;
+    }
+
+    .menu__wrapper {
+        display: none;
+    }
+
+    .menu__btn {
+        display: block;
+    }
+}
+
 
 @media(max-width: 1100px) {
     .header__logo {
@@ -28,14 +48,9 @@
     }
 
     .header__logo-title {
-        // max-width: 300px;
         font-size: 30px;
         line-height: 35px;
     }
-
-    // .benefits__list {
-    //     padding-bottom: 7px;
-    // }
 
     .footer__inner {
         flex-wrap: wrap;
@@ -108,9 +123,11 @@
 }
 
 @media(max-width: 430px) {
+
     .header__logo,
     .footer__logo {
         width: 70px;
+
         &-title {
             display: none;
         }

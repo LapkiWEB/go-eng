@@ -6,12 +6,14 @@
 .header {
     padding-top: 10px;
     padding-bottom: 20px;
+    // position: relative;
 }
 
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .header__logo {
@@ -81,6 +83,86 @@
     &+.header__social-list {
         margin-left: 10px;
     }
+}
+
+
+.menu {
+    background-color: $GO-red;
+    color: #fff;
+    padding: 15px 0;
+    position: relative;
+    @extend %Al-Regular;
+    font-size: 20px;
+    line-height: 27px;
+
+    &__top {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 15px !important;
+        border-bottom: 1px solid #fff;
+    }
+
+    &__down {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 15px !important;
+    }
+}
+
+.menu__list {
+    width: fit-content;
+    padding: 0 15px;
+}
+
+.menu__btn {
+    display: none;
+    z-index: 1000;
+
+    .row {
+        margin-left: auto;
+        margin-right: 15px;
+        width: 38px;
+        height: 3px;
+        margin-bottom: 5px;
+        background-color: #fff;
+    }
+}
+
+.menu__btn.active {
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    .row1 {
+        transform: rotate(45deg);
+        position: relative;
+        top: 5px;
+        transition: all .5s ease 0s;
+    }
+
+    .row3 {
+        display: none;
+    }
+
+    .row2 {
+        transform: rotate(-45deg);
+        position: relative;
+        top: -4px;
+        transition: all .5s ease 0s;
+    }
+}
+
+
+.menu__wrapper.openDone {
+    display: block;
+    position: absolute;
+    top: 54px;
+    right: 0;
+    bottom: 0;
+    width: 360px;
+    height: fit-content;
+    // height: 100%;
+    background-color: $GO-red;
+    z-index: 10;
 }
 
 // end header
