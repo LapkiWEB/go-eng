@@ -1,25 +1,27 @@
-// %AnPro-Regular {
-//   font-family: 'AnonymousPro-Regular', sans-serif;
-//   font-weight: normal;
-//   display: swap;
-// }
+%Al-Regular {
+    font-family: 'Alegreya-Regular', sans-serif;
+    font-weight: 400;
+    font-display: swap;
+}
 
-// %AnPro-Bold {
-//   font-family: 'AnonymousPro-Bold', sans-serif;
-//   font-weight: 700
-// }
+%Al-Bold {
+    font-family: 'Alegreya-Bold', sans-serif;
+    font-weight: 700;
+    font-display: swap;
+}
 
-// %AlGrey-Bold {
-//   font-family: 'AlegreyaSC-Bold', sans-serif;
-//   font-weight: 700;
-// }
+%Rubik-Light {
+    font-family: 'Rubik-Light', sans-serif;
+    font-weight: 300;
+    font-display: swap;
+}
 
-// %AlGrey-Regular {
-//   font-family: 'AlegreyaSC-Regular', sans-serif;
-//   font-weight: normal;
-// }
+%Rubik-Regular {
+    font-family: 'Rubik-Regular', sans-serif;
+    font-weight: 400;
+    font-display: swap;
+}
 
-// $blue: #ABD0D3;
-// $text: #F2F1ED;
-// $background: #3B3B3B;
-// $line: #BCB3A9;
+$GO-red: #CE1439;
+$GO-grey: #F2F1ED;
+$GO-title: #6B696B;

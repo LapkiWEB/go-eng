@@ -1,13 +1,14 @@
 html,
 body {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-size: 18px;
+    @extend %Rubik-Light;
+    color: #000;
     height: 100%;
-        //   @extend %AnPro-Regular;
-        //   color: $text;
-        // position: relative;
-        // overflow-x: hidden;
-        // margin: 0 auto;
-        //   background-color: $background;
 }
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -21,20 +22,40 @@ body {
 .footer {
     flex: 0 0 auto;
 }
-.container{
-  // max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+
+.container {
+    max-width: 1466px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-// .title{
-//     @extend %AlGrey-Bold;
-//     font-size: 36px;
-//     line-height: 49px;
-//     padding: 0px 35px;
-//     border-bottom: 2px solid $blue;
-//     text-align: center;
-//     margin: 0 auto;
-//     margin-bottom: 56px;
-//     max-width: fit-content;
-// }
+.title {
+    @extend %Al-Bold;
+    font-size: 36px;
+    line-height: 49px;
+    padding: 0px 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.main-btn {
+    background-color: $GO-red;
+    color: #fff;
+    padding: 9px 17px;
+    box-shadow: 4px 4px 4px rgba(156, 36, 49, 0.5);
+    border: none;
+    font-size: 24px;
+    line-height: 33px;
+    @extend %Al-Regular;
+    border-radius: 2px;
+    transition: all .3s;
+    border: 1px solid transparent;
+
+    &:hover {
+        box-shadow: 4px 4px 4px rgba(156, 36, 49, 0.9);
+        background-color: #fff;
+        border: 1px solid $GO-red;
+        color: $GO-red;
+    }
+}

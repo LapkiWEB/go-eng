@@ -3,11 +3,254 @@
 @import 'global';
 @import 'fonts';
 
-// start header
+.header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 492px;
+    width: 100%;
 
+    img {
+        width: 130px;
+        height: 112px;
+    }
+
+    &-title {
+        @extend %Al-Regular;
+        font-size: 36px;
+        line-height: 49px;
+        // max-width: 477px;
+        // width: 100%;
+        padding: 0px 10px;
+        color: $GO-title;
+    }
+}
+
+.header__address {
+    @extend %Al-Regular;
+    font-size: 18px;
+    line-height: 24px;
+
+    span {
+        display: block;
+    }
+}
+
+.header__contact {
+    @extend %Al-Regular;
+    width: 170px;
+    text-align: center;
+    padding: 3px;
+}
+
+.header__contact-phone {
+    width: 173px;
+    color: $GO-red;
+    font-size: 24px;
+    line-height: 33px;
+    transition: all .3s;
+
+    &:hover {
+        background-color: $GO-red;
+        color: #fff;
+        border-radius: 3px;
+    }
+}
+
+.header__contact-email {
+    width: 170px;
+    text-decoration: revert;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.header__social-list {
+    display: inline-block;
+
+    &+.header__social-list {
+        margin-left: 10px;
+    }
+}
 
 // end header
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  start footer
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 371px;
+    width: 100%;
+
+    img {
+        width: 130px;
+        height: 112px;
+    }
+
+    &-title {
+        @extend %Al-Regular;
+        font-size: 24px;
+        line-height: 33px;
+        // max-width: 211px;
+        width: 100%;
+        padding: 0px 10px;
+        color: $GO-title;
+    }
+}
+
+.footer__address {
+    @extend %Al-Regular;
+    font-size: 14px;
+    line-height: 17px;
+
+    span {
+        display: block;
+        font-size: 24px;
+        line-height: 33px;
+        color: $GO-red;
+    }
+}
+
+.footer__contact {
+    @extend %Al-Regular;
+    width: 170px;
+    text-align: center;
+    padding: 3px;
+}
+
+.footer__contact-phone {
+    width: 173px;
+    color: $GO-red;
+    font-size: 24px;
+    line-height: 33px;
+    transition: all .3s;
+
+    &:hover {
+        background-color: $GO-red;
+        color: #fff;
+        border-radius: 3px;
+    }
+}
+
+.footer__contact-email {
+    width: 170px;
+    text-decoration: revert;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__social-list {
+    display: inline-block;
+
+    &+.footer__social-list {
+        margin-left: 10px;
+    }
+}
+
+// end footer
+
+
+
 
 @import 'media';

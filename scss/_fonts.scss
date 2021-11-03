@@ -1,43 +1,43 @@
+@font-face {
+    font-family: 'Alegreya-Regular';
+    src: url('../fonts/Alegreya-Regular.eot');
+    src: local('☺'),
+        url('../fonts/Alegreya-Regular.woff') format('woff'),
+        url('../fonts/Alegreya-Regular.ttf') format('truetype'),
+        url('../fonts/Alegreya-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
 
-// УБЕРИ SANS-SERIF ОН МОЖЕТ ЛОМАТЬ ШРИФТ
+@font-face {
+    font-family: 'Alegreya-Bold';
+    src: url('../fonts/Alegreya-Bold.eot');
+    src: local('☺'),
+        url('../fonts/Alegreya-Bold.woff') format('woff'),
+        url('../fonts/Alegreya-Bold.ttf') format('truetype'),
+        url('../fonts/Alegreya-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
 
-// @font-face {
-//   font-family: 'AnonymousPro-Regular';
-//   src: url('../fonts/AnonymousPro-Regular.eot');
-//   src: local('☺'),
-//     url('../fonts/AnonymousPro-Regular.woff') format('woff'),
-//     url('../fonts/AnonymousPro-Regular.ttf') format('truetype'),
-//     url('../fonts/AnonymousPro-Regular.woff2') format('woff2');
-//   font-weight: normal;
-//   font-style: normal;
-// }
-// @font-face {
-//   font-family: 'AnonymousPro-Bold';
-//   src: url('../fonts/AnonymousPro-Bold.eot');
-//   src: local('☺'),
-//     url('../fonts/AnonymousPro-Bold.woff') format('woff'),
-//     url('../fonts/AnonymousPro-Bold.ttf') format('truetype'),
-//     url('../fonts/AnonymousPro-Bold.svg') format('svg');
-//   font-weight: 700;
-//   font-style: normal;
-// }
-// @font-face {
-//   font-family: 'AlegreyaSC-Bold';
-//   src: url('../fonts/AlegreyaSC-Bold.eot');
-//   src: local('☺'),
-//     url('../fonts/AlegreyaSC-Bold.woff') format('woff'),
-//     url('../fonts/AlegreyaSC-Bold.ttf') format('truetype'),
-//     url('../fonts/AlegreyaSC-Bold.svg') format('svg');
-//   font-weight: 700;
-//   font-style: normal;
-// }
-// @font-face {
-//   font-family: 'AlegreyaSC-Regular';
-//   src: url('../fonts/AlegreyaSC-Regular.eot');
-//   src: local('☺'),
-//     url('../fonts/AlegreyaSC-Regular.woff') format('woff'),
-//     url('../fonts/AlegreyaSC-Regular.ttf') format('truetype'),
-//     url('../fonts/AlegreyaSC-Regular.svg') format('svg');
-//   font-weight: 400;
-//   font-style: normal;
-// }
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('../fonts/Rubik-Light.eot');
+    src: local('☺'),
+        url('../fonts/Rubik-Light.woff') format('woff'),
+        url('../fonts/Rubik-Light.ttf') format('truetype'),
+        url('../fonts/Rubik-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../fonts/Rubik-Regular.eot');
+    src: local('☺'),
+        url('../fonts/Rubik-Regular.woff') format('woff'),
+        url('../fonts/Rubik-Regular.ttf') format('truetype'),
+        url('../fonts/Rubik-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
