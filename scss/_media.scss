@@ -85,6 +85,20 @@
     }
 }
 
+@media(max-width: 768px) {
+    .about__title{
+        font-size: 36px;
+        line-height: 40px;
+        &::before{
+            display: none;
+        }
+    }
+    .about__suptitle{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
 @media(max-width: 620px) {
 
     .header__logo,
@@ -100,6 +114,13 @@
             font-size: 20px;
             line-height: 28px;
         }
+    }
+    .about__img{
+        display: none;
+    }
+    .about__box{
+        width: 100%;
+        padding-top: 36px;
     }
 }
 
