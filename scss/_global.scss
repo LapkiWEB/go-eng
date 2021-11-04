@@ -31,8 +31,11 @@ body {
 .section{
     max-width: 1920px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+
+}
+.about{
+        display: flex;
+        justify-content: space-between;
 }
 
 .title {

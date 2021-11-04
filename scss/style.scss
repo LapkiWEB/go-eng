@@ -208,12 +208,71 @@
 
 // end section about
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // start section benefits
+.benefits {
+    padding-top: 40px;
+}
 
+.benefits__title {
+    color: $GO-red;
+}
 
+.benefits__inner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.benefits__item {
+    border: 1px solid $GO-red;
+    padding: 20px 14px;
+    width: 256px;
+    margin-bottom: 40px;
+
+}
+
+.benefits__item-img {
+    margin-bottom: 22px;
+
+    img {
+        width: 258px;
+        height: 180px;
+    }
+}
+
+.benefits__item-text {
+    text-align: center;
+}
 
 // end section benefits
+
 
 
 
