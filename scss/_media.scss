@@ -88,7 +88,7 @@
 }
 
 @media(max-width: 768px) {
-    .about__title {
+    .title {
         font-size: 36px;
         line-height: 40px;
 
@@ -98,6 +98,10 @@
     }
 
     .about__suptitle {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .eng__box-text{
         font-size: 18px;
         line-height: 20px;
     }
