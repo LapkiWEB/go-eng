@@ -342,6 +342,7 @@
     padding: 50px 0;
     text-align: center;
 }
+
 .exams__text,
 .talk__text {
     text-align: center;
@@ -353,36 +354,42 @@
 // end section exams
 
 // start section lang
-.lang__wrapper{
+.lang__wrapper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.lang__img{
+
+.lang__img {
     min-height: 732px;
 }
-.lang__box{
+
+.lang__box {
     padding-top: 40px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.lang__inner-text{
+
+.lang__inner-text {
     max-width: 787px;
 }
-.lang__text{
+
+.lang__text {
     text-align: center;
     margin-bottom: 25px;
     font-size: 20px;
     line-height: 26px;
-    span{
+
+    span {
         @extend %Rubik-Regular;
         font-weight: 500;
     }
 }
-.lang-btn{
-height: fit-content;
-margin-bottom: 10px;
+
+.lang-btn {
+    height: fit-content;
+    margin-bottom: 10px;
 }
 
 
@@ -390,7 +397,41 @@ margin-bottom: 10px;
 
 
 
+// start section services
 
+.services__inner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 575px;
+}
+
+.services__box {
+    background-color: rgba(255, 255, 255, 0.7);
+    min-height: 575px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.services-right {
+    margin-left: auto;
+}
+.services-left{
+    margin-right: auto;
+}
+
+.services__box-text {
+    max-width: 787px;
+    text-align: center;
+    margin: 0 auto;
+     margin-bottom: 40px;
+}
+.services-btn{
+    margin-bottom: 10px;
+}
+
+// end section services
 
 
 
