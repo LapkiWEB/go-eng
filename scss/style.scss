@@ -249,7 +249,7 @@
 
 // start section eng
 
-.eng__inner{
+.eng__inner {
     background-image: url(../images/content/eng.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -257,7 +257,8 @@
     display: flex;
     align-items: center;
 }
-.eng__title{
+
+.eng__title {
     background-color: rgba(255, 255, 255, 0.6);
     margin-top: 25px;
     margin-bottom: 25px;
@@ -265,31 +266,34 @@
     line-height: 65px;
 }
 
-.eng__box{
+.eng__box {
     background-color: $GO-red;
     text-align: center;
     padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.eng__box-text{
+
+.eng__box-text {
     color: #fff;
     margin-bottom: 30px;
-     @extend %Rubik-Light;
-     font-size: 23px;
-     line-height: 24px;
+    @extend %Rubik-Light;
+    font-size: 23px;
+    line-height: 24px;
 }
-.eng__box-title{
+
+.eng__box-title {
     color: #fff;
 }
 
 
-.eng__wrapper{
+.eng__wrapper {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.eng__item{
+
+.eng__item {
     width: 400px;
     padding: 20px 40px 40px;
     background-color: #fff;
@@ -302,11 +306,13 @@
     flex-wrap: wrap;
 
 }
-.eng__item-title{
+
+.eng__item-title {
     position: relative;
     padding: 0 40px;
     width: 100%;
-    &::before{
+
+    &::before {
         position: absolute;
         content: "";
         top: 50px;
@@ -316,17 +322,35 @@
         background-color: $GO-red;
     }
 }
-.eng__item-text{
+
+.eng__item-text {
     margin-bottom: 40px;
     width: 100%;
     @extend %Rubik-Light;
     font-size: 18px;
     line-height: 21px;
 }
+
 // end section eng
 
 
+// start section exams
 
+.exams,
+.talk {
+    background-color: $GO-grey;
+    padding: 50px 0;
+    text-align: center;
+}
+.exams__text,
+.talk__text {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+// end section exams
 
 
 
