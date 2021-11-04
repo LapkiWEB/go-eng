@@ -414,10 +414,25 @@
 
 }
 
+.services__box-title{
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 1px;
+        background-color: $GO-red;
+    }
+}
+
 .services-right {
     margin-left: auto;
 }
-.services-left{
+
+.services-left {
     margin-right: auto;
 }
 
@@ -425,9 +440,10 @@
     max-width: 787px;
     text-align: center;
     margin: 0 auto;
-     margin-bottom: 40px;
+    margin-bottom: 40px;
 }
-.services-btn{
+
+.services-btn {
     margin-bottom: 10px;
 }
 
@@ -435,7 +451,57 @@
 
 
 
+//  start section contacts
+.contacts {
+    background-color: #EDEDED;
+    padding: 18px 0;
+    margin-bottom: 20px;
+}
 
+.contacts__title {
+    padding-bottom: 10px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.contacts__inner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+.contacts__form-name,
+.contacts__form-phone,
+.contacts__form-text {
+    max-width: 450px;
+    width: 100%;
+    border: 1px solid #6B696B;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    resize: none;
+    @extend %Rubik-Light;
+    color: $GO-title;
+}
+
+.contacts__form-text {
+    margin-left: 10px;
+}
+
+.contacts__wrapper-btn {
+    text-align: center;
+    padding: 10px 0;
+}
+
+//  end section contacts
 
 
 
@@ -584,7 +650,33 @@
 
 // end footer
 
+.mfp-content {
+    background-color: #EEE;
+    max-width: 1000px;
+    padding: 10px;
+}
 
+.hidden {
+    display: none;
+}
+
+.mfp-close {
+    font-size: 40px;
+}
+
+.mardvey {
+    width: 100%;
+    padding: 15px 0;
+
+    &__link {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 18px;
+        height: 24px;
+        color: $GO-title;
+    }
+}
 
 
 @import 'media';

@@ -85,15 +85,28 @@
         width: 100px;
         height: 80px;
     }
-    .lang__img{
+
+    .lang__img {
         display: none;
     }
-    .lang__box{
+
+    .lang__box {
         width: 100%;
     }
-    .services__box{
+
+    .services__box {
         width: 100%;
     }
+
+
+
+    // .popup__container {
+    //     padding: 0 15px;
+    // }
+
+    // .popup__close {
+    //     right: 15px;
+    // }
 }
 
 @media(max-width: 768px) {
@@ -110,10 +123,25 @@
         font-size: 18px;
         line-height: 20px;
     }
-    .eng__box-text{
+
+    .eng__box-text {
         font-size: 18px;
         line-height: 20px;
     }
+}
+
+@media(max-width: 650px) {
+    .contacts__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contacts__form-text {
+        margin-left: 0;
+        padding: 10px;
+        max-width: 432px;
+    }
+
 }
 
 @media(max-width: 620px) {
@@ -159,8 +187,15 @@
             line-height: 20px;
         }
     }
+
     .benefits__item-img {
         display: none;
+    }
+}
+
+@media(max-width: 460px) {
+    .popup__title {
+        padding-top: 45px;
     }
 }
 
