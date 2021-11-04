@@ -352,7 +352,41 @@
 
 // end section exams
 
+// start section lang
+.lang__wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.lang__img{
+    min-height: 732px;
+}
+.lang__box{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lang__inner-text{
+    max-width: 787px;
+}
+.lang__text{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 26px;
+    span{
+        @extend %Rubik-Regular;
+        font-weight: 500;
+    }
+}
+.lang-btn{
+height: fit-content;
+margin-bottom: 10px;
+}
 
+
+// end section lang
 
 
 

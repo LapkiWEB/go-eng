@@ -85,6 +85,12 @@
         width: 100px;
         height: 80px;
     }
+    .lang__img{
+        display: none;
+    }
+    .lang__box{
+        width: 100%;
+    }
 }
 
 @media(max-width: 768px) {
